@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Postres</title>
+  </head>
+
+  <body>
+
+    <section id="cabecera">
+      <p id="parrafo">Dessert World</p>
+      <div id="componenteCabecera">
+            <input  class="busquedaBotones" type="text" id="searchPostre" placeholder="nombre a buscar postre">
+            <button class="busquedaBotones" id="btn-search">Buscar Postre</button>
+      </div>
+    </section>
+    
+
+
+    <section> 
+    <div id="controlAgregar">
+      <p class="parrafo">Postres</p> 
+      <input  class="botones" id="nombre"   type="text"         placeholder="nombre" />
+      <input  class="botones" id="cantidad" type="text"         placeholder="precio" />
+      <input  class="botones" id="sabor"    type="text"          placeholder="sabor" />
+      <button class="botones" id="btn-add">Agregar</button>
+    </div>
+
+  <div id="controlMinMax">
+      <button id="minValue" type="button">Encontrar Postre menor</button>
+      <button id="maxValue" type="button">Encontrar Postre mayor</button>
+  </div>
+
+    </section>
+    
+    <div id="contenidoLista">
+      <button id="Run"      type="button">Mostrar todo</button>
+      <ul id="colaDeImpresion"></ul>
+    </div>
+    
+  
+    
+
+
+
+
+    <script type="module" src="./src/controllers/script.js"></script>
+    
+  </body>
+</html>

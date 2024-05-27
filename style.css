@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(142, 230, 160);
+}
+
+#cabecera{
+    background-color: rgb(104, 181, 120);
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+#componenteCabecera{
+    position: relative;
+    left: 1250px;
+}
+
+#controlAgregar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 50px;
+    padding-left: 10px;
+    padding-right: 1opx;
+    background-color: antiquewhite;
+    width: 150px; 
+    border-radius: 50px;
+}
+
+.botones{
+    margin: 10px;
+   background-color: pink;
+}
+
+#busquedaBotones{
+    font-size: 20px;
+    bottom: 50px;
+}
+
+.parrafo{
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#parrafo{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contenidoLista{
+    background-color: rgb(218, 192, 159);
+    padding: 30px;
+    border-radius: 70px;
+}
+
+#controlMinMax{
+    position: relative;
+    width: 250px;
+    left: 250px;
+    bottom:370px;
+    padding:25px;   
+    border-radius: 70px;
+    background-color: rgb(227, 120, 205);
+}
